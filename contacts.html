@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My contacts</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body{
+          margin: 0;
+          padding:0;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #f1f1f1;
+        }
+      
+        .main{
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .flex-container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+        }
+      
+          .flex-items{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 28%;
+              height: 80%;
+              background-color: #fff;
+              border-radius: 10px;
+              box-shadow: 0 0 10px rgba(0,0,0,0.1);
+              margin: 20px;
+              padding: 60px;
+          }
+          .pic{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 90px;
+              height: 100px;
+              background-color: #182EF5;
+              margin:0;
+              padding: 0;
+              border-radius: 50%;
+          }
+          img{
+              width: 85px;
+              height: 85px;
+              border-radius: 50%;
+              margin: 0;
+              padding: 0;
+              border: 3px solid #fff;
+          }
+          .social-media{
+              display: block;
+              width: auto;
+              height: auto;
+              margin-top: 20px;
+          }
+      
+          .media{
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              width: auto;
+              height: auto;
+              margin: 5px;
+          }
+          .media a{
+              text-decoration: none;
+              color: #000;
+              font-size: 30px;
+              margin: 10px;
+          }
+      
+          .media .icons{
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              font-size: 15px;
+              margin: 10px;
+              font-family: Arial, Helvetica, sans-serif;
+          }
+          .media .icons p{
+              margin: 0 5px;
+          }
+          h1{
+              font-size: 2rem;
+              margin: 5px;
+              padding: 0;
+          }
+          h2{
+              font-size: 1.5rem;
+              margin: 10px;
+              padding: 0;
+          }
+          h3{
+              font-size: 1.2rem;
+              margin: 10px;
+              padding: 0;
+          }
+          #facebook a i{
+              background-color: #3b5998;
+              color: #fff;
+              border-radius: 50%;
+              padding: 5px;
+          }
+      
+          #instagram a i{
+              background-color: #e4405f;
+              color: #fff;
+              border-radius: 50%;
+              padding: 5px;
+          }
+      
+          #whatsapp a i{
+              background-color: #25d366;
+              color: #fff;
+              border-radius: 50%;
+              padding: 5px;
+          }
+      
+          #linkedin a i{
+              background-color: #0077b5;
+              color: #fff;
+              border-radius: 50%;
+              padding: 5px;
+          }
+          #github a i{
+              background-color: #333;
+              color: #fff;
+              border-radius: 50%;
+              padding: 5px;
+          }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="flex-container">
+            <div class="flex-items">
+                <h1>Paulo Veronica Mugaduia</h1>
+                <div class="pic">
+                    <img src="./logo.jpg" alt="profile">
+                </div>
+                <h2>Fullstack Web Developer</h2>
+                <h3>Contacts</h3>
+                <div class="social-media">
+                    <div id="facebook" class="media">
+                        <a href="https://web.facebook.com/paulo.veronica.58" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                        <div class="icons">
+                            <i class='bx bx-like'></i>
+                            <p>1.5k</p> 
+                            <i class='bx bx-share'></i> 
+                            <p>0.96k</p>
+                        </div>
+                    </div>
+                    <div id="instagram" class="media">
+                        <a href="https://www.instagram.com/paulo.mgd/profilecard/?igsh=MXY3OW5zN2MxNmptdQ==" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                        <div class="icons">
+                            <i class='bx bx-like'></i>
+                            <p>0.26k</p> 
+                            <i class='bx bx-share'></i> 
+                            <p>0.15k</p>
+                        </div>
+                    </div>
+                    <div id="whatsapp" class="media">
+                        <a href="https://wa.me/qr/DGTBEPRYVM3NF1" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+                        <div class="icons">
+                            <i class='bx bx-like'></i>
+                            <p>1.1k</p> 
+                            <i class='bx bx-share'></i> 
+                            <p>2.6k</p>
+                        </div>
+                    </div> 
+                    <div id="linkedin" class="media">
+                        <a href="https://www.linkedin.com/in/paulo-veronica-mugaduia-a6767a120/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                        <div class="icons">
+                            <i class='bx bx-like'></i>
+                            <p>0.5k</p> 
+                            <i class='bx bx-share'></i> 
+                            <p>0.23k</p>
+                        </div>
+                    </div>
+                    <div id="github" class="media">
+                        <a href="https://github.com/thekitten47" target="_blank"><i class='bx bxl-github' ></i></a>
+                        <div class="icons">
+                            <i class='bx bx-like'></i>
+                            <p>0.0k</p> 
+                            <i class='bx bx-share'></i> 
+                            <p>0.0k</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
